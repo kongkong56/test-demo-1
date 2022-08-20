@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "driver": "pg",
+        "port":{
+            "ENV":"24518"
+        },
+        "host": {
+            "ENV": "POSTGRES_HOST"
+        },
+        "database": {
+            "ENV": "POSTGRES_DB"
+        },
+        "user": {
+            "ENV": "POSTGRES_USER_DEV"
+        },
+        "password": {
+            "ENV": "POSTGRES_PASSWORD_DEV"
+        }
+    }
+}
